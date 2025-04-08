@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Winky Sans", sans-serif;
+}
+
+.main{
+    height:50vh;
+margin:25% 10px;
+}
+
+/* -------------for- macbook------------- */
+.macbook{
+    width:36%;
+    display:inline-block;
+    vertical-align:top;
+    margin:1%;
+    padding:10px;
+    text-align: center;
+background-image:url(lapto.avif);
+    background-size:cover;
+    background-position:center;
+   z-index:-1;
+   color:rgb(230, 227, 35);
+}
+.mac-stats{
+   
+    color:rgb(230, 96, 19);
+    font-weight: 700;
+}
+.mac-head{
+  
+    font-size:1.5rem;
+    font-weight:500;
+    z-index:999;
+
+}
+.mac-con{
+    font-size:1.65rem;
+    
+}
+.mac-price{
+    font-size:0.9rem;
+    font-weight:400;
+}
+.mac-btn{
+    background-color:rgb(10, 116, 187);
+    display:inline-block;
+    padding:5px 20px;
+    margin:7px;
+    color:white;
+    border-radius:20px;
+}
+/* for---------code-0--------------- */
+.code{
+    width:36%;
+    display:inline-block;
+    vertical-align:top;
+    border:2px solid black;
+    margin:1%;
+    padding:10px;
+}
+.code-head{
+    font-size:1.5rem;
+    font-weight:700px;
+}
+.code1-span{
+    font-weight:300;
+    color:rgb(149, 142, 142);
+}
+.lastd a{
+    text-decoration:none;
+    color:rgb(10, 116, 187)
+   
+}
+
+
+
+/* for-----------usd-------------- */
+.usd{
+    width:20%;
+    display:inline-block;
+    vertical-align:top;
+    border:2px solid black;
+    margin:1%;
+    padding:10px;
+}
+.usd-head{
+    font-size:1.7rem;
+    font-weight:400;
+}
+.usd-span1{
+    font-size:1rem;
+    color:rgb(149, 142, 142);
+}
+.usd-stats{
+    font-size:0.8rem;
+    color:rgb(41, 198, 41);
+}
+.usd-stats2{
+    font-size:0.9rem;
+    color:rgb(149, 142, 142)
+}
+.usd-span2{
+    color:rgb(72, 8, 8);
+}
